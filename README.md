@@ -1,0 +1,2 @@
+# wtw
+Warhammer Discord Bot
