@@ -5,6 +5,8 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { dbhostname, dbusername, dbpassword, dbdatabase, token, discordlogprofile } = require('./config.json');
 
+//Oha
+
 var dbcon  = mysql.createConnection({
 	host     : dbhostname,
 	user     : dbusername,
