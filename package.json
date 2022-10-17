@@ -1,6 +1,10 @@
 {
   "name": "wtw",
   "version": "3.0.0",
+  "auto-updater":{
+	"repo":"/SchinkTasia/wtw",
+	"branch":"master"
+  },
   "description": "Warhammer: Total War Discord Bot",
   "main": "index.js",
   "scripts": {
@@ -9,6 +13,7 @@
   "author": "SchinkTasia",
   "license": "ISC",
   "dependencies": {
+    "auto-updater": "^1.0.2",
     "discord.js": "^14.3.0",
     "forever": "^4.0.3",
     "mysql": "^2.18.1",
